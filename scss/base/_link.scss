@@ -1,0 +1,21 @@
+.link {
+  color: $color-link-text;
+  @include font($size: 1.125rem, $height: 144%, $weight: 500, $letter: 0.5px);
+}
+
+.link-current {
+  position: relative;
+  color: $color-link-text-current;
+}
+
+.link-current::after {
+  content: "";
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0.5rem;
+  width: 0.375rem;
+  height: 0.375rem;
+  border-radius: 100%;
+  background-color: $color-link-border-current;
+}

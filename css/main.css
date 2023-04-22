@@ -1,0 +1,246 @@
+.main {
+  font-family: "Poppins";
+  font-weight: 400;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+.main ::-webkit-scrollbar {
+  width: 0;
+}
+
+*::before,
+*::after {
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+ul,
+ol {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  list-style-position: inside;
+}
+
+a {
+  text-decoration: none;
+  background-color: transparent;
+  color: var(--color-text-primary);
+}
+
+a:active,
+a:hover {
+  outline: 0;
+}
+
+:active {
+  outline: none;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+main,
+nav,
+section,
+summary {
+  display: block;
+}
+
+button {
+  margin: 0;
+  padding: 0;
+  overflow: visible;
+  background: none;
+  border: 0px;
+  border-radius: 0;
+}
+
+input {
+  outline: none;
+}
+
+fieldset {
+  padding: 0;
+  margin: 0;
+  border: none;
+}
+
+.address {
+  font-size: inherit;
+  font-style: inherit;
+  font-weight: inherit;
+}
+
+legend {
+  padding: 0;
+}
+
+.layout-2-column {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-column-gap: 2rem;
+     -moz-column-gap: 2rem;
+          column-gap: 2rem;
+}
+
+.link {
+  color: #8e8e8e;
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 144%;
+  letter-spacing: 0.5px;
+}
+
+.link-current {
+  position: relative;
+  color: #69b99d;
+}
+
+.link-current::after {
+  content: "";
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0.5rem;
+  width: 0.375rem;
+  height: 0.375rem;
+  border-radius: 100%;
+  background-color: #69b99d;
+}
+
+.container {
+  max-width: 90rem;
+  width: 100%;
+}
+
+.header-container {
+  padding: 2rem 7.75rem 2rem 7.75rem;
+}
+
+.logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-column-gap: 1rem;
+     -moz-column-gap: 1rem;
+          column-gap: 1rem;
+}
+
+.logo__image {
+  display: block;
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: #fefeff;
+  background-color: #4ba586;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 142%;
+  letter-spacing: 0.5px;
+}
+
+.logo__title {
+  color: #4ba586;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 108%;
+  letter-spacing: 0.5px;
+}
+
+.nav-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-column-gap: 3rem;
+     -moz-column-gap: 3rem;
+          column-gap: 3rem;
+}
+
+.account {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-column-gap: 0.5rem;
+     -moz-column-gap: 0.5rem;
+          column-gap: 0.5rem;
+  color: #69b99d;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%;
+  letter-spacing: 0.0025em;
+}
+
+.account__sign-in {
+  width: 9.4375rem;
+  height: 3.4375rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.account__login {
+  width: 8.6875rem;
+  height: 3.4375rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.accoutn-active {
+  color: #ffffff;
+  background-color: #69b99d;
+}

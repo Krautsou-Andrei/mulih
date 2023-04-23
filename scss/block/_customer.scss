@@ -1,0 +1,61 @@
+.container-customer {
+  padding: 0 7.75rem 7.5rem 7.75rem;
+}
+
+.customer__tag {
+  margin-bottom: 1rem;
+  display: inline-block;
+}
+
+.customer-list {
+  display: flex;
+  column-gap: 2rem;
+}
+
+.customer-list__item {
+  flex: 33%;
+}
+
+.item-customer {
+  padding: 1.4375rem;
+  border: 0.0625rem solid $color-customer-border;
+}
+
+.item-customer__image {
+  margin-bottom: 1.5rem;
+
+  width: 2.625rem;
+  height: 2.125rem;
+
+  background-image: url("../../img/icon/quotes.svg");
+}
+
+.item-customer__title {
+  margin-bottom: 1rem;
+}
+
+.item-customer__description {
+  margin-top: 0;
+  margin-bottom: 1.5rem;
+
+  color: $color-customer-description-text;
+  @include font($size: 1rem, $height: 150%, $weight: 400, $letter: 0.0025em);
+}
+
+.user {
+  display: flex;
+  column-gap: 0.875rem;
+
+  font-family: "Nunito Sans";
+}
+
+.info-user__name {
+  margin-bottom: 0.25rem;
+  color: $color-customer-user-name-text;
+  @include font($size: 1rem, $height: 162%, $weight: 600, $letter: 0.5px);
+}
+
+.info-user__job {
+  color: $color-customer-user-job-text;
+  @include font($size: 0.75rem, $height: 183%, $weight: 400, $letter: 0.5px);
+}

@@ -19,3 +19,8 @@
   color: $color-title-md-text;
   @include font($size: 1.75rem, $height: 136%, $weight: 700, $letter: 0.5px);
 }
+
+.title--sm {
+  color: $color-title-sm-text;
+  @include font($size: 1.125rem, $height: 156%, $weight: 600, $letter: 0.0025em);
+}

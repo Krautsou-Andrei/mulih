@@ -1,8 +1,7 @@
 $width: 90rem;
 $width-real-estate-title: 37.8125rem;
 $width-real-estate-description: 31.375rem;
-// $width-tab: 46.9375rem;
-// $height-tab: 11.25rem;
+$width-discover-description: 30.75rem;
 $height-real-estate: 42.9375rem;
 
 $palette-color-ocean-green: #4ba586;
@@ -15,18 +14,27 @@ $palette-color-selago: #f8f9fe;
 $palette-color-cloud-burst: #1f2744;
 $palette-color-storm-gray: #73788c;
 $palette-color-silver-chalice: #a6a6a6;
+$pakette-color-teal-blue: #054457;
+$palette-color-westar: #dedcda;
 
 $color-header-background: $palette-color-wild-sand;
 $color-real-estate-background: $palette-color-wild-sand;
+$color-discover-background: $palette-color-titan-white;
 
 $color-link-text: $palette-color-gray;
 $color-link-text-current: $palette-color-silver-tree;
 $color-link-border-current: $palette-color-silver-tree;
 
+$color-button-disabled: $palette-color-gray;
+$color-button-disabled-text: $palette-color-titan-white;
+$color-button-disabled-border: $palette-color-gray;
+
 $color-tag-text: $palette-color-silver-tree;
 $color-tag-background: $palette-color-selago;
 
 $color-title-xxl-text: $palette-color-cloud-burst;
+$color-title-xl-text: $pakette-color-teal-blue;
+$color-title-lg-text: $palette-color-cloud-burst;
 
 $color-header-logo-background: $palette-color-ocean-green;
 $color-header-logo-image-text: $palette-color-titan-white;
@@ -45,3 +53,14 @@ $color-tab-description-item-title: $palette-color-cloud-burst;
 $color-tab-description-item-select: $palette-color-silver-chalice;
 $color-tab-button-search-background: $palette-color-silver-tree;
 $color-tab-button-search-text: $palette-color-white;
+
+$color-discover-description-text: $palette-color-storm-gray;
+$color-card-border: $palette-color-westar;
+$color-card-description: $palette-color-silver-chalice;
+$color-card-price-text: $palette-color-silver-tree;
+$color-card-size: $palette-color-silver-chalice;
+$color-card-size-digit: $palette-color-cloud-burst;
+$color-card-size-background: $palette-color-wild-sand;
+$color-card-button-border: $palette-color-silver-tree;
+$color-card-button-background-hover: $palette-color-silver-tree;
+$color-card-button-text-hover: $palette-color-titan-white;

@@ -3,3 +3,14 @@
   color: $color-title-xxl-text;
   @include font($size: 4rem, $height: 116%, $weight: 600, $letter: 0.0025em);
 }
+
+.title--xl {
+  font-family: "Rubik";
+  color: $color-title-xl-text;
+  @include font($size: 3rem, $height: 117%, $weight: 600, $letter: 0.5px);
+}
+
+.title--lg {
+  color: $color-title-lg-text;
+  @include font($size: 1.5rem, $height: 133%, $weight: 600, $letter: 0.0025em);
+}

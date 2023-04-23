@@ -5,8 +5,11 @@
   justify-content: center;
   align-items: center;
 
+  font-family: "Poppins";
   color: $color-header-account-text;
+  cursor: pointer;
   @include font($size: 1rem, $height: 150%, $weight: 500, $letter: 0.0025em);
+  @extend %transition-all;
 }
 
 .button:hover {
@@ -21,4 +24,60 @@
 .button-active {
   color: $color-header-account-text-active;
   background-color: $color-header-account-background-active;
+}
+
+.button-search {
+  padding-top: 1.125rem;
+  padding-bottom: 1.125rem;
+  color: $color-tab-button-search-text;
+  background-color: $color-tab-button-search-background;
+}
+
+.button-learn-more {
+  padding: 0.75rem 1.5rem;
+
+  display: flex;
+  column-gap: 0.5rem;
+
+  @include font($size: 1.125rem, $height: 144%, $weight: 500, $letter: 0.5px);
+}
+
+.button-learn-more::after {
+  content: "";
+  display: inline-block;
+  width: 1.5rem;
+  height: 1.5rem;
+  border-radius: 100%;
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 1.5rem;
+  background-image: url("../../img/icon/arrow-learn-more.svg");
+}
+
+.button-learn-more:hover.button-learn-more::after {
+  opacity: 1;
+  @extend %button-box-shadow;
+}
+
+.button-card {
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+  width: 100%;
+  border: 1px solid $color-card-button-border;
+}
+
+.button-card:hover {
+  color: $color-card-button-text-hover;
+  background-color: $color-card-button-background-hover;
+  @extend %button-box-shadow;
+}
+
+.button:disabled {
+  position: static;
+  color: $color-button-disabled-text;
+  border-color: $color-button-disabled-border;
+  background-color: $color-button-disabled;
+  cursor: no-drop;
+  @extend %button-box-shadow-disabled;
 }

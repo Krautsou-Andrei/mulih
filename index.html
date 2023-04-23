@@ -7,6 +7,7 @@
   <meta name="description" content="Макет для верстки сайта был взял с телеграм канала FIGMA | Макеты для верстки">
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/base.css">
   <link rel="stylesheet" href="./css/main.css">
 </head>
@@ -114,7 +115,7 @@
             <div class="discover__tag">
               <span class="tag tag__discover">Discover</span>
             </div>
-            <h2 class="discover__title title-xl">Best recomendation</h2>
+            <h2 class="discover__title title--xl">Best recomendation</h2>
             <div class="discover__description">
               <p class="discover__description-text">Discover our exclusive selection of the finest one-of-a-kind luxury properties architectural masterpieces.</p>
               <a href="#" class="button button-learn-more">Learn more</a>
@@ -122,18 +123,19 @@
             <ul class="discover-list">
               <li class="discover-list__item item-discover">
                 <div class="card">
-                  <div class="card__image">
-                    <img src="./img/card-1.jpg" alt="" width="344" height="238">
+                  <div class="card__image image">
+                    <img class="source" src="./img/card-1.jpg" alt="" width="344" height="238">
                   </div>
                   <h3 class="card__title title--lg">Perum griya asri</h3>
                   <p class="card__description">
                     Bogor, Jawa Barat
                   </p>
                   <div class="card__price">
-                    $25,000
-                  </div>
-                  <div class="card__size">
-                    360m2 Living Area
+                    <span class="price">$25,000</span>
+
+                    <div class="card__size">
+                      <span class="size">360m</span><span class="prefix"> 2</span> Living Area
+                    </div>
                   </div>
                   <button class="button button-card" type="button">
                     Send Inquiry
@@ -142,18 +144,19 @@
               </li>
               <li class="discover-list__item item-discover">
                 <div class="card">
-                  <div class="card__image">
-                    <img src="./img/card-1.jpg" alt="" width="344" height="238">
+                  <div class="card__image image">
+                    <img class="source" src="./img/card-2.jpg" alt="" width="344" height="238">
                   </div>
-                  <h3 class="card__title title--lg">Perum griya asri</h3>
+                  <h3 class="card__title title--lg">Perum kencana asri</h3>
                   <p class="card__description">
                     Bogor, Jawa Barat
                   </p>
                   <div class="card__price">
-                    $25,000
-                  </div>
-                  <div class="card__size">
-                    360m2 Living Area
+                    <span class="price">$35,000</span>
+
+                    <div class="card__size">
+                      <span class="size">360m</span><span class="prefix"> 2</span> Living Area
+                    </div>
                   </div>
                   <button class="button button-card" type="button">
                     Send Inquiry
@@ -162,18 +165,19 @@
               </li>
               <li class="discover-list__item item-discover">
                 <div class="card">
-                  <div class="card__image">
-                    <img src="./img/card-1.jpg" alt="" width="344" height="238">
+                  <div class="card__image image">
+                    <img class="source" src="./img/card-3.jpg" alt="" width="344" height="238">
                   </div>
-                  <h3 class="card__title title--lg">Perum griya asri</h3>
+                  <h3 class="card__title title--lg">Perum rakjel elit</h3>
                   <p class="card__description">
                     Bogor, Jawa Barat
                   </p>
                   <div class="card__price">
-                    $25,000
-                  </div>
-                  <div class="card__size">
-                    360m2 Living Area
+                    <span class="price">$40,000</span>
+
+                    <div class="card__size">
+                      <span class="size">360m</span><span class="prefix"> 2</span> Living Area
+                    </div>
                   </div>
                   <button class="button button-card" type="button">
                     Send Inquiry
@@ -184,6 +188,7 @@
           </div>
         </div>
       </section>
+
     </article>
 
   </div>

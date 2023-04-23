@@ -43,6 +43,7 @@
   padding: 0.75rem 2rem;
 
   color: $color-tab-text;
+  cursor: pointer;
   @include font($size: 1.5rem, $height: 133%, $weight: 500, $letter: 0.0025em);
 }
 
@@ -87,11 +88,5 @@
   background-position: center;
   background-repeat: no-repeat;
   background-image: url("../../img/icon/arrow.svg");
-}
-
-.button-search {
-  padding-top: 1.125rem;
-  padding-bottom: 1.125rem;
-  color: $color-tab-button-search-text;
-  background-color: $color-tab-button-search-background;
+  cursor: pointer;
 }

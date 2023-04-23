@@ -4,11 +4,16 @@
   display: flex;
   align-items: center;
 
+  text-transform: uppercase;
+
   color: $color-tag-text;
   @include font($size: 1.125rem, $height: 144%, $weight: 500, $letter: 0.5px);
 }
 
 .tag-real-estate {
-  text-transform: uppercase;
+  background-color: $color-tag-background;
+}
+
+.tag__discover {
   background-color: $color-tag-background;
 }

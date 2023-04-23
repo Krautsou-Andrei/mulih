@@ -1,6 +1,7 @@
 .link {
   color: $color-link-text;
   @include font($size: 1.125rem, $height: 144%, $weight: 500, $letter: 0.5px);
+  @extend %transition-all;
 }
 
 .link:hover {

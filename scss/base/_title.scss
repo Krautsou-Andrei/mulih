@@ -14,3 +14,8 @@
   color: $color-title-lg-text;
   @include font($size: 1.5rem, $height: 133%, $weight: 600, $letter: 0.0025em);
 }
+
+.title--md {
+  color: $color-title-md-text;
+  @include font($size: 1.75rem, $height: 136%, $weight: 700, $letter: 0.5px);
+}

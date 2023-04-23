@@ -159,6 +159,15 @@ legend {
   letter-spacing: 0.0025em;
 }
 
+.title--md {
+  color: #054457;
+  font-size: 1.75rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 136%;
+  letter-spacing: 0.5px;
+}
+
 .link {
   color: #8e8e8e;
   font-size: 1.125rem;
@@ -304,11 +313,9 @@ legend {
   letter-spacing: 0.5px;
 }
 
-.tag-real-estate {
-  background-color: #f8f9fe;
-}
-
-.tag__discover {
+.tag--real-estate,
+.tag--discover,
+.tag--our-advante {
   background-color: #f8f9fe;
 }
 
@@ -637,4 +644,79 @@ legend {
   bottom: 0.4rem;
   font-size: 0.625rem;
   color: #1f2744;
+}
+
+.our-advente {
+  background-color: #f5f5f5;
+}
+
+.our-advante-container {
+  padding: 5rem 7.75rem;
+}
+
+.our-advante__tag {
+  margin-bottom: 1rem;
+  display: inline-block;
+}
+
+.our-advante__title {
+  margin-bottom: 3rem;
+  max-width: 27.25rem;
+}
+
+.our-advante-list {
+  display: -ms-grid;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 23.5rem);
+  gap: 2rem;
+}
+
+.item-advante {
+  padding: 1.25rem;
+}
+
+.item-advante__image {
+  margin-bottom: 1rem;
+  width: 3.375rem;
+  height: 3.375rem;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.image-heart {
+  background-image: url("../../img/icon/heart.svg");
+}
+
+.image-shield-done {
+  background-image: url("../../img/icon/shield-done.svg");
+}
+
+.image-star {
+  background-image: url("../../img/icon/star.svg");
+}
+
+.image-ticket-star {
+  background-image: url("../../img/icon/ticket-star.svg");
+}
+
+.image-location {
+  background-image: url("../../img/icon/location.svg");
+}
+
+.image-graph {
+  background-image: url("../../img/icon/graph.svg");
+}
+
+.item-advante__title {
+  margin-bottom: 1rem;
+}
+
+.item-advante__description {
+  margin: 0;
+  color: #73788c;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 162%;
+  letter-spacing: 0.5px;
 }

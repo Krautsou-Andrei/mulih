@@ -1,0 +1,75 @@
+.our-advente {
+  background-color: $color-our-advante-background;
+}
+
+.container {
+}
+
+.our-advante-container {
+  padding: 5rem 7.75rem;
+}
+
+.our-advante__tag {
+  margin-bottom: 1rem;
+  display: inline-block;
+}
+
+.our-advante__title {
+  margin-bottom: 3rem;
+  max-width: $width-our-advante-title;
+}
+
+.our-advante-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, max(23.5rem));
+  gap: 2rem;
+}
+
+.our-advante-list__item {
+}
+
+.item-advante {
+  padding: 1.25rem;
+}
+
+.item-advante__image {
+  margin-bottom: 1rem;
+  width: 3.375rem;
+  height: 3.375rem;
+
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.image-heart {
+  background-image: url("../../img/icon/heart.svg");
+}
+
+.image-shield-done {
+  background-image: url("../../img/icon/shield-done.svg");
+}
+
+.image-star {
+  background-image: url("../../img/icon/star.svg");
+}
+
+.image-ticket-star {
+  background-image: url("../../img/icon/ticket-star.svg");
+}
+
+.image-location {
+  background-image: url("../../img/icon/location.svg");
+}
+
+.image-graph {
+  background-image: url("../../img/icon/graph.svg");
+}
+.item-advante__title {
+  margin-bottom: 1rem;
+}
+
+.item-advante__description {
+  margin: 0;
+  color: $color-our-advante-description-text;
+  @include font($size: 1rem, $height: 162%, $weight: 400, $letter: 0.5px);
+}

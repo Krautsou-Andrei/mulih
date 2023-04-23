@@ -10,10 +10,8 @@
   @include font($size: 1.125rem, $height: 144%, $weight: 500, $letter: 0.5px);
 }
 
-.tag-real-estate {
-  background-color: $color-tag-background;
-}
-
-.tag__discover {
+.tag--real-estate,
+.tag--discover,
+.tag--our-advante {
   background-color: $color-tag-background;
 }

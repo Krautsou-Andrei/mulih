@@ -108,6 +108,16 @@ legend {
           box-shadow: none;
 }
 
+.rating {
+  -webkit-box-shadow: 35px 35px 65px rgba(146, 106, 120, 0.16);
+          box-shadow: 35px 35px 65px rgba(146, 106, 120, 0.16);
+}
+
+.button-about:hover {
+  -webkit-box-shadow: 24px 24px 65px rgba(81, 140, 119, 0.24);
+          box-shadow: 24px 24px 65px rgba(81, 140, 119, 0.24);
+}
+
 .button, .link {
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
@@ -128,6 +138,18 @@ legend {
   -webkit-column-gap: 2rem;
      -moz-column-gap: 2rem;
           column-gap: 2rem;
+}
+
+.column--about {
+  -webkit-column-gap: 3.5rem;
+     -moz-column-gap: 3.5rem;
+          column-gap: 3.5rem;
+  -webkit-box-pack: unset;
+      -ms-flex-pack: unset;
+          justify-content: unset;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
 }
 
 .title--xxl {
@@ -288,6 +310,17 @@ legend {
   background-color: #69b99d;
 }
 
+.button-about {
+  padding-top: 1.125rem;
+  padding-bottom: 1.125rem;
+  color: #fefeff;
+  background-color: #69b99d;
+}
+
+.button-about:hover {
+  opacity: 1;
+}
+
 .button:disabled {
   position: static;
   color: #fefeff;
@@ -315,7 +348,8 @@ legend {
 
 .tag--real-estate,
 .tag--discover,
-.tag--our-advante {
+.tag--our-advante,
+.tag--about {
   background-color: #f8f9fe;
 }
 
@@ -719,4 +753,174 @@ legend {
   font-weight: 400;
   line-height: 162%;
   letter-spacing: 0.5px;
+}
+
+.container-about {
+  position: relative;
+  padding: 7.5rem 7.75rem;
+}
+
+.about__input {
+  position: absolute;
+  z-index: -1;
+  opacity: 0;
+}
+
+.about__label {
+  z-index: 2;
+  position: relative;
+  margin-left: 10.4375rem;
+  margin-bottom: 4rem;
+  padding: 0.1668rem;
+  display: inline-block;
+  width: 2rem;
+  height: 2rem;
+}
+
+.about__label::after {
+  content: "";
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  border: 0.125rem solid #69b99d;
+  border-radius: 30%;
+  cursor: pointer;
+}
+
+.about__input:checked + .about__label::after {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url("../../img/icon/tick-square.svg");
+}
+
+.rating {
+  padding: 2rem;
+  z-index: 1;
+  display: none;
+  position: absolute;
+  top: 8.5rem;
+  left: 13.75rem;
+  background-color: #fefeff;
+}
+
+.about__input:checked ~ .rating {
+  display: block;
+}
+
+.rating__digit {
+  margin-bottom: 0.5rem;
+  font-size: 4.5rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 111%;
+  letter-spacing: 0.0025em;
+}
+
+.rating__stars {
+  margin-bottom: 1rem;
+}
+
+.star {
+  display: inline-block;
+  width: 1.125rem;
+  height: 1.125rem;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url("../../img/icon/star-rating.svg");
+}
+
+.rating__info {
+  margin-bottom: 0.125rem;
+  text-align: center;
+  color: #a6a6a6;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+  letter-spacing: 0.0025em;
+}
+
+.rating__reviews {
+  text-align: center;
+  color: #054457;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+  letter-spacing: 0.0025em;
+}
+
+.about__image {
+  position: relative;
+  -webkit-box-flex: 40%;
+      -ms-flex: 40%;
+          flex: 40%;
+}
+
+.about__property {
+  position: absolute;
+  padding: 0.75rem 2rem;
+  right: 0;
+  bottom: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-column-gap: 2rem;
+     -moz-column-gap: 2rem;
+          column-gap: 2rem;
+  color: #a6a6a6;
+  background-color: #ffffff;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 162%;
+  letter-spacing: 0.0025em;
+}
+
+.property,
+.apartament {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-column-gap: 0.5rem;
+     -moz-column-gap: 0.5rem;
+          column-gap: 0.5rem;
+}
+
+.property__digit,
+.apartament__digit {
+  color: #054457;
+  font-size: 3rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 121%;
+  letter-spacing: 0.0025em;
+}
+
+.about__content {
+  -webkit-box-flex: 33%;
+      -ms-flex: 33%;
+          flex: 33%;
+  padding-top: 2.1875rem;
+}
+
+.about__tag {
+  margin-bottom: 1rem;
+  display: inline-block;
+}
+
+.about__title {
+  margin-bottom: 1rem;
+}
+
+.about__description {
+  margin-top: 0;
+  margin-bottom: 3rem;
+  max-width: 31.5625rem;
+  color: #73788c;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 162%;
+  letter-spacing: 0.0025em;
 }

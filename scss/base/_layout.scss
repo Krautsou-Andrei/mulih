@@ -4,4 +4,10 @@
   justify-content: space-between;
   flex-wrap: wrap;
   column-gap: 2rem;
- }
+}
+
+.column--about {
+  column-gap: 3.5rem;
+  justify-content: unset;
+  align-items: flex-start;
+}

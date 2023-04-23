@@ -73,6 +73,18 @@
   @extend %button-box-shadow;
 }
 
+.button-about {
+  padding-top: 1.125rem;
+  padding-bottom: 1.125rem;
+  color: $color-about-button-text;
+  background-color: $color-about-button-background;
+}
+
+.button-about:hover {
+  opacity: 1;
+  @extend %button-box-shadow-about;
+}
+
 .button:disabled {
   position: static;
   color: $color-button-disabled-text;

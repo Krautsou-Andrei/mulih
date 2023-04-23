@@ -6,6 +6,14 @@
   box-shadow: none;
 }
 
+%rating-box-shadow {
+  box-shadow: 35px 35px 65px rgba(146, 106, 120, 0.16);
+}
+
+%button-box-shadow-about {
+  box-shadow: 24px 24px 65px rgba(81, 140, 119, 0.24);
+}
+
 %transition-all {
   transition: all 0.3s;
 }

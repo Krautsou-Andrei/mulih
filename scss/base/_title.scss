@@ -1,0 +1,5 @@
+.title--xxl {
+  font-family: "Rubik";
+  color: $color-title-xxl-text;
+  @include font($size: 4rem, $height: 116%, $weight: 600, $letter: 0.0025em);
+}

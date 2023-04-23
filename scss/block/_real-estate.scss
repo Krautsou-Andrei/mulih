@@ -1,0 +1,97 @@
+.real-estate {
+  background-color: $color-real-estate-background;
+}
+
+.container-image {
+  background-repeat: no-repeat;
+  background-position: right top -4.5rem;
+
+  background-image: url("../../img/real-estate.png");
+}
+
+.real-estate-container {
+  padding: 2rem 7.75rem;
+  min-height: $height-real-estate;
+}
+
+.real-estate__tag {
+  display: inline-block;
+  margin-bottom: 2rem;
+}
+
+.real-estate__title {
+  margin-bottom: 1.5rem;
+  max-width: $width-real-estate-title;
+}
+
+.real-estate__description {
+  margin-top: 0;
+  margin-bottom: 4rem;
+
+  max-width: $width-real-estate-description;
+
+  color: $color-real-state-description-text;
+  @include font($size: 1rem, $height: 150%, $weight: 400, $letter: 0.0025em);
+}
+
+.real-estate__tab {
+  display: inline-block;
+}
+
+.tab-button {
+  display: inline-block;
+  padding: 0.75rem 2rem;
+
+  color: $color-tab-text;
+  @include font($size: 1.5rem, $height: 133%, $weight: 500, $letter: 0.0025em);
+}
+
+.tab-button-active {
+  color: $color-tab-text-active;
+  background-color: $color-tab-background-active;
+}
+
+.tab__description {
+  padding: 2rem;
+  background-color: $color-tab-description-background;
+}
+
+.tab-list {
+  display: flex;
+  column-gap: 2.5rem;
+}
+
+.item-tab {
+  @include font($size: 1.125rem, $height: 144%, $weight: 400, $letter: 0.0025em);
+}
+
+.item-tab__title {
+  margin-bottom: 0.5rem;
+  color: $color-tab-description-item-title;
+}
+
+.item-tab__select {
+  display: flex;
+  align-items: center;
+  column-gap: 0.5rem;
+  color: $color-tab-description-item-select;
+  @include font($size: 1.125rem, $height: 144%, $weight: 400, $letter: 0.0025em);
+}
+
+.item-tab__select::after {
+  content: "";
+  display: inline-block;
+  width: 1.5rem;
+  height: 1.5rem;
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url("../../img/icon/arrow.svg");
+}
+
+.button-search {
+  padding-top: 1.125rem;
+  padding-bottom: 1.125rem;
+  color: $color-tab-button-search-text;
+  background-color: $color-tab-button-search-background;
+}

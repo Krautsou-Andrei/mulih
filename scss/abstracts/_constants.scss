@@ -1,14 +1,32 @@
 $width: 90rem;
+$width-real-estate-title: 37.8125rem;
+$width-real-estate-description: 31.375rem;
+// $width-tab: 46.9375rem;
+// $height-tab: 11.25rem;
+$height-real-estate: 42.9375rem;
 
 $palette-color-ocean-green: #4ba586;
 $palette-color-titan-white: #fefeff;
 $palette-color-white: #ffffff;
 $palette-color-gray: #8e8e8e;
 $palette-color-silver-tree: #69b99d;
+$palette-color-wild-sand: #f5f5f5;
+$palette-color-selago: #f8f9fe;
+$palette-color-cloud-burst: #1f2744;
+$palette-color-storm-gray: #73788c;
+$palette-color-silver-chalice: #a6a6a6;
+
+$color-header-background: $palette-color-wild-sand;
+$color-real-estate-background: $palette-color-wild-sand;
 
 $color-link-text: $palette-color-gray;
 $color-link-text-current: $palette-color-silver-tree;
 $color-link-border-current: $palette-color-silver-tree;
+
+$color-tag-text: $palette-color-silver-tree;
+$color-tag-background: $palette-color-selago;
+
+$color-title-xxl-text: $palette-color-cloud-burst;
 
 $color-header-logo-background: $palette-color-ocean-green;
 $color-header-logo-image-text: $palette-color-titan-white;
@@ -17,3 +35,13 @@ $color-header-logo-text: $palette-color-ocean-green;
 $color-header-account-background-active: $palette-color-silver-tree;
 $color-header-account-text: $palette-color-silver-tree;
 $color-header-account-text-active: $palette-color-white;
+
+$color-real-state-description-text: $palette-color-storm-gray;
+$color-tab-text: $palette-color-silver-chalice;
+$color-tab-text-active: $palette-color-silver-tree;
+$color-tab-background-active: $palette-color-titan-white;
+$color-tab-description-background: $palette-color-titan-white;
+$color-tab-description-item-title: $palette-color-cloud-burst;
+$color-tab-description-item-select: $palette-color-silver-chalice;
+$color-tab-button-search-background: $palette-color-silver-tree;
+$color-tab-button-search-text: $palette-color-white;

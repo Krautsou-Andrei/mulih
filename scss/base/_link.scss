@@ -3,6 +3,15 @@
   @include font($size: 1.125rem, $height: 144%, $weight: 500, $letter: 0.5px);
 }
 
+.link:hover {
+  opacity: 0.8;
+}
+
+.link:active {
+  position: relative;
+  top: 0.125rem;
+}
+
 .link-current {
   position: relative;
   color: $color-link-text-current;

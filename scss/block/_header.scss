@@ -1,6 +1,11 @@
+.header {
+  background-color: $color-header-background;
+}
+
 .container {
   max-width: $width;
   width: 100%;
+  margin: 0 auto;
 }
 
 .header-container {
@@ -11,6 +16,15 @@
   display: flex;
   align-items: center;
   column-gap: 1rem;
+}
+
+.logo:hover {
+  opacity: 0.8;
+}
+
+.logo:active {
+  position: relative;
+  top: 0.125rem;
 }
 
 .logo__image {
@@ -46,30 +60,14 @@
   align-items: center;
   justify-content: space-between;
   column-gap: 0.5rem;
-
-  color: $color-header-account-text;
-  @include font($size: 1rem, $height: 150%, $weight: 500, $letter: 0.0025em);
 }
 
-.account__sign-in {
-  width: 9.4375rem;
-  height: 3.4375rem;
+// .account__sign-in {
+//   width: 9.4375rem;
+//   height: 3.4375rem;
+// }
 
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.account__login {
-  width: 8.6875rem;
-  height: 3.4375rem;
-
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.accoutn-active {
-  color: $color-header-account-text-active;
-  background-color: $color-header-account-background-active;
-}
+// .account__login {
+//   width: 8.6875rem;
+//   height: 3.4375rem;
+// }

@@ -1,14 +1,12 @@
-// html {
-//   font-family: "Poppins";
-//   font-weight: 400;
-//   box-sizing: border-box;
-//   scroll-behavior: smooth;
-//   ::-webkit-scrollbar {
-//     width: 0;
-//   }
-// }
+html {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  ::-webkit-scrollbar {
+    width: 0;
+  }
+}
 
-.main{
+.main {
   font-family: "Poppins";
   font-weight: 400;
   box-sizing: border-box;
@@ -18,36 +16,16 @@
   }
 }
 
-// *,
+*,
 *::before,
 *::after {
   box-sizing: inherit;
+}
+
+h1 {
   margin: 0;
   padding: 0;
 }
-
-// p,
-// h1,
-// h2,
-// h3,
-// h4,
-// h5,
-// h6 {
-//   font-weight: inherit;
-//   font-size: inherit;
-//   margin: 0;
-//   padding: 0;
-// }
-
-// p:last-child,
-// h1:last-child,
-// h2:last-child,
-// h3:last-child,
-// h4:last-child,
-// h5:last-child,
-// h6:last-child {
-//   margin-bottom: 0;
-// }
 
 ul,
 ol {
@@ -85,13 +63,6 @@ section,
 summary {
   display: block;
 }
-
-// img {
-//   max-width: 100%;
-//   height: auto;
-//   border-style: none;
-//   vertical-align: top;
-// }
 
 button {
   margin: 0;

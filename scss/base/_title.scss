@@ -21,6 +21,12 @@
 }
 
 .title--sm {
+  font-family: "DM Sans";
   color: $color-title-sm-text;
+  @include font($size: 1.25rem, $height: 140%, $weight: 500, $letter: normal);
+}
+
+.title--xs {
+  color: $color-title-xs-text;
   @include font($size: 1.125rem, $height: 156%, $weight: 600, $letter: 0.0025em);
 }

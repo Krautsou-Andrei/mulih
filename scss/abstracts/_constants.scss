@@ -19,11 +19,14 @@ $pakette-color-teal-blue: #054457;
 $palette-color-westar: #dedcda;
 $palette-color-firefly: #0b2e29;
 $palette-color-boulder: #767676;
+$palette-color-alto: #d7d7d7;
+$palette-color-black-haze: #f8f9f9;
 
 $color-header-background: $palette-color-wild-sand;
 $color-real-estate-background: $palette-color-wild-sand;
 $color-discover-background: $palette-color-titan-white;
 $color-our-advante-background: $palette-color-wild-sand;
+$color-footer-background: $palette-color-wild-sand;
 
 $color-link-text: $palette-color-gray;
 $color-link-text-current: $palette-color-silver-tree;
@@ -40,7 +43,8 @@ $color-title-xxl-text: $palette-color-cloud-burst;
 $color-title-xl-text: $pakette-color-teal-blue;
 $color-title-lg-text: $palette-color-cloud-burst;
 $color-title-md-text: $pakette-color-teal-blue;
-$color-title-sm-text: $palette-color-cloud-burst;
+$color-title-sm-text: $palette-color-firefly;
+$color-title-xs-text: $palette-color-cloud-burst;
 
 $color-header-logo-background: $palette-color-ocean-green;
 $color-header-logo-image-text: $palette-color-titan-white;
@@ -88,3 +92,9 @@ $color-customer-border: $palette-color-westar;
 $color-customer-description-text: $palette-color-cloud-burst;
 $color-customer-user-name-text: $palette-color-firefly;
 $color-customer-user-job-text: $palette-color-boulder;
+
+$color-footer-description-text: $palette-color-cloud-burst;
+$color-footer-input-text: $palette-color-alto;
+$color-footer-button-send-background: $palette-color-silver-tree;
+$color-footer-button-text: $palette-color-titan-white;
+$color-footer-social-item-background: $palette-color-black-haze;

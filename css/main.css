@@ -347,7 +347,7 @@ legend {
   background-position: center;
   background-repeat: no-repeat;
   background-size: 1.5rem;
-  background-image: url("../../img/icon/arrow-learn-more.svg");
+  background-image: url("../img/icon/arrow-learn-more.svg");
 }
 
 .button-learn-more:hover.button-learn-more::after {
@@ -517,7 +517,7 @@ legend {
 .container-image {
   background-repeat: no-repeat;
   background-position: right top -4.5rem;
-  background-image: url("../../img/real-estate.png");
+  background-image: url("../img/real-estate.png");
 }
 
 .real-estate-container {
@@ -620,7 +620,7 @@ legend {
   height: 1.5rem;
   background-position: center;
   background-repeat: no-repeat;
-  background-image: url("../../img/icon/arrow.svg");
+  background-image: url("../img/icon/arrow.svg");
   cursor: pointer;
 }
 
@@ -781,27 +781,27 @@ legend {
 }
 
 .image-heart {
-  background-image: url("../../img/icon/heart.svg");
+  background-image: url("../img/icon/heart.svg");
 }
 
 .image-shield-done {
-  background-image: url("../../img/icon/shield-done.svg");
+  background-image: url("../img/icon/shield-done.svg");
 }
 
 .image-star {
-  background-image: url("../../img/icon/star.svg");
+  background-image: url("../img/icon/star.svg");
 }
 
 .image-ticket-star {
-  background-image: url("../../img/icon/ticket-star.svg");
+  background-image: url("../img/icon/ticket-star.svg");
 }
 
 .image-location {
-  background-image: url("../../img/icon/location.svg");
+  background-image: url("../img/icon/location.svg");
 }
 
 .image-graph {
-  background-image: url("../../img/icon/graph.svg");
+  background-image: url("../img/icon/graph.svg");
 }
 
 .item-advante__title {
@@ -853,7 +853,7 @@ legend {
 .about__input:checked + .about__label::after {
   background-position: center;
   background-repeat: no-repeat;
-  background-image: url("../../img/icon/tick-square.svg");
+  background-image: url("../img/icon/tick-square.svg");
 }
 
 .rating {
@@ -890,7 +890,7 @@ legend {
   height: 1.125rem;
   background-repeat: no-repeat;
   background-position: center;
-  background-image: url("../../img/icon/star-rating.svg");
+  background-image: url("../img/icon/star-rating.svg");
 }
 
 .rating__info {
@@ -1022,7 +1022,7 @@ legend {
   margin-bottom: 1.5rem;
   width: 2.625rem;
   height: 2.125rem;
-  background-image: url("../../img/icon/quotes.svg");
+  background-image: url("../img/icon/quotes.svg");
 }
 
 .item-customer__title {
@@ -1202,13 +1202,13 @@ legend {
 }
 
 .link-instagram {
-  background-image: url("../../img/icon/instagram.svg");
+  background-image: url("../img/icon/instagram.svg");
 }
 
 .link-youtube {
-  background-image: url("../../img/icon/youtube.svg");
+  background-image: url("../img/icon/youtube.svg");
 }
 
 .link-facebook {
-  background-image: url("../../img/icon/facebook.svg");
+  background-image: url("../img/icon/facebook.svg");
 }
